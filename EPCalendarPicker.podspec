@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "EPCalendarPicker"
-  s.version          = "1.0.8"
+  s.version          = "1.1.1"
   s.summary          = "Colourful calendar component for iOS written in Swift"
   s.description      = <<-DESC
 Features
@@ -13,8 +13,8 @@ DESC
   s.homepage         = "https://github.com/LEYEFEINC/EPCalendarPicker"
   s.license          = 'MIT'
   s.author           = { "Prabaharan" => "mailprabaharan.e@gmail.com" }
-  s.source           = { :git => "https://github.com/LEYEFEINC/EPCalendarPicker.git", :tag => '1.1.0' }
-  s.platform     = :ios, '9.0'
+  s.source           = { 'https://github.com/LEYEFEINC/EPCalendarPicker.git', :tag => '1.1.1' }
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.source_files = 'EPCalendar/EPCalendarPicker'
   s.frameworks = 'UIKit'
